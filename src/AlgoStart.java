@@ -1,6 +1,7 @@
 /**
  * Created by binay on 7/18/16.
  */
+import com.Graph.*;
 public class AlgoStart {
 
     public static void main(String[] args)
@@ -19,7 +20,8 @@ public class AlgoStart {
             System.out.print(sortedArray[i]+" ");
         }*/
 
-        new Stack();
+        //new Stack();
+        new Graph().initializeGraph();
     }
 }
 
